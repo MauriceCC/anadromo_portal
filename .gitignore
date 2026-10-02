@@ -1,0 +1,41 @@
+# Dependencias y resultados de herramientas web
+node_modules/
+dist/
+build/
+out/
+.astro/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.vercel/
+.netlify/
+.wrangler/
+coverage/
+playwright-report/
+test-results/
+.cache/
+.tmp/
+tmp/
+*.tsbuildinfo
+*.log
+
+# Configuración local y credenciales; conservar ejemplos sin secretos
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
+*.swo
+*~
+
+# Grabaciones originales y documentación privada local
+local-only/
+
+# Los lockfiles y los medios optimizados de public/ sí se versionan.
