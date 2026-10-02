@@ -21,3 +21,4 @@ Si el jugador llega al final, el salmón alcanza su destino y cumple su ciclo de
 ## Pendiente
 
 Precisar qué ocurre en la cueva, cómo interviene Bloop y cómo se representa el final. No añadir persecuciones, combates ni desenlaces alternativos sin confirmación.
+Al principio, el cardumen de Salmones se encuentra nadando normalmente buscando regresar a su río natal, en ese el bloop aparece, y ocasiona que el cardumen se divida, El jugador, para escapar y no ser devorado por el Bloop, se adentra en la cueva donde hay peligrosas criaturas como pirañas, lampreas, peces linterna, tiburones y orcas. Al salir ya puede coontinuar con la carrera del Salmón.
