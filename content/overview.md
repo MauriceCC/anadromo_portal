@@ -15,3 +15,6 @@ La web reúne la historia del juego, los primeros bosquejos, el storyboard, las 
 ## Pendiente
 
 Confirmar género, plataforma, equipo, versión mostrada y cualquier enlace público de descarga o demostración. La reseña describe la propuesta; no constituye una evaluación independiente del juego.
+Genero: Exploracion, Survival marino, etc
+Para Oculus Quest 2
+No habrá demostracion de descarga
