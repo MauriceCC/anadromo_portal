@@ -1,11 +1,19 @@
-# El proyecto
+# Un viaje construido en equipo.
 
-Estado: datos parciales.
+Proyecto académico y experimental sobre interacción humano-computador, desarrollado en Unity para Oculus Quest 2.
 
-- Nombre: Anadromo.
-- Motor: Unity.
-- Repositorio del juego: <https://github.com/lawryuke/anadromo>.
-- Equipo y responsabilidades: Mauricio Andres Cornejo Alvarez (Mecanicas), Rimsky Augusto Miramira Bellido (Mapa), Riki Santher Coloma Yujra (Ambiente).
-- Contexto académico o institucional, si corresponde: Academico / Experimentativo, el objetivo era desarrollar los conceptos de interaccion humano computador.
-- Créditos de arte, sonido, tipografías y otros recursos: De freeSound, Assets gratuitos e Imagenes generadas por ChatGPT.
-- Versión documentada: No hay documentacion oficial pero si projects: https://github.com/users/lawryuke/projects/2 .
+## Mauricio Andres Cornejo Alvarez
+
+Mecánicas
+
+## Rimsky Augusto Miramira Bellido
+
+Mapa
+
+## Riki Santher Coloma Yujra
+
+Ambiente
+
+## Recursos
+
+El proyecto utiliza sonidos de Freesound, assets gratuitos e imágenes generadas con ChatGPT. Las atribuciones específicas de los recursos se completarán con sus respectivas fuentes.

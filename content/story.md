@@ -1,24 +1,23 @@
-# El viaje de regreso
+# Todo río deja una huella.
 
-Estado: secuencia confirmada por el autor; redacción inicial.
+El océano es solo una parte del camino. Para nuestro protagonista, avanzar significa regresar.
 
-## Crecer
+## 01 · El origen
 
-La escena de introducción muestra el crecimiento del salmón protagonista hasta su etapa adulta, cuando está listo para emprender el retorno a su río natal.
+La introducción acompaña el crecimiento del salmón hasta la edad adulta. Llega el momento de reunirse con el cardumen y emprender el retorno al río natal.
 
-## La presencia de Bloop
+## 02 · La ruptura
 
-Durante el viaje, el salmón se adentra en una cueva debido a la criatura Bloop. Ese encuentro marca un cambio en su recorrido.
+Bloop aparece. Su tamaño colosal rompe la calma y divide al cardumen. Para evitar ser devorado, el protagonista se refugia en una cueva.
 
-## Volver al origen
+## 03 · Las profundidades
 
-El objetivo del protagonista es llegar a su río natal.
+La cueva ofrece una salida, pero también nuevas amenazas: pirañas, lampreas, peces linterna, tiburones y orcas. Sobrevivir exige observar y aprender sus comportamientos.
 
-## Desenlace — contiene spoilers
+## 04 · El regreso
 
-Si el jugador llega al final, el salmón alcanza su destino y cumple su ciclo de vida. En la web, mostrar este contenido de forma opcional con un aviso de desenlace.
+Al salir de la cueva, el salmón puede continuar su carrera hacia el río natal.
 
-## Pendiente
+## El final del viaje
 
-Precisar qué ocurre en la cueva, cómo interviene Bloop y cómo se representa el final. No añadir persecuciones, combates ni desenlaces alternativos sin confirmación.
-Al principio, el cardumen de Salmones se encuentra nadando normalmente buscando regresar a su río natal, en ese el bloop aparece, y ocasiona que el cardumen se divida, El jugador, para escapar y no ser devorado por el Bloop, se adentra en la cueva donde hay peligrosas criaturas como pirañas, lampreas, peces linterna, tiburones y orcas. Al salir ya puede coontinuar con la carrera del Salmón.
+Si el jugador llega al final, el protagonista alcanza su río natal y completa su ciclo de vida. La escena final cierra el recorrido iniciado en la introducción.

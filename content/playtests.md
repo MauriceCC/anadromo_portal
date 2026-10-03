@@ -1,9 +1,7 @@
-# Aprender de quienes juegan
+# Fuera del código. Dentro de la experiencia.
 
-Estado: pendiente de videos y resultados de pruebas con usuarios reales.
+Probamos el juego con personas reales para observar cómo se movían, cómo interpretaban las señales y dónde aparecían dificultades. Estos registros forman parte del proceso de desarrollo.
 
-Cada prueba contará qué se quería observar, qué versión se usó, qué sucedió y qué se cambió o se propone cambiar. Usar la [plantilla de prueba](../docs/templates/playtest.md).
+## Observar, ajustar, volver a probar
 
-Incluir video o enlace, póster, subtítulos o transcripción y marcas de tiempo de los momentos relevantes. Diferenciar observación del equipo, comentario de la persona e interpretación posterior.
-
-No hay resultados documentados todavía. No inventar participantes, citas, tasas de éxito ni mejoras. Publicar únicamente material de participantes autorizado para difusión; guardar originales y datos privados fuera de `public/`.
+El reconocimiento del aleteo, la orientación en la zona inicial y la comodidad del jugador fueron aprendizajes centrales. Las observaciones del equipo se recogen en la sección de diseño; los videos permiten explorar los registros de las sesiones.

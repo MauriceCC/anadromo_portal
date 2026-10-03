@@ -1,13 +1,11 @@
-# Una historia en escenas
+# Del trazo al recorrido.
 
-Estado: estructura narrativa propuesta; no sustituye al storyboard original.
+Los bocetos y el storyboard reúnen el trabajo visual que dio forma a la historia. Explora los documentos originales del proyecto.
 
-| Momento | Base conocida | Material pendiente |
-| --- | --- | --- |
-| Introducción | Crecimiento del salmón hasta adulto | Viñetas, encuadre y duración |
-| Inicio del regreso | Retorno hacia el río natal | Viñetas y transición |
-| Bloop y la cueva | El protagonista entra en la cueva debido a Bloop | Secuencia exacta y recursos sonoros |
-| Recorrido | Objetivo de alcanzar el río natal | Escenas intermedias reales |
-| Final | Cumplimiento del ciclo de vida al completar el juego | Representación del desenlace |
+## Bocetos
 
-Guardar las viñetas en `public/media/storyboard/`. Cada una debe tener orden, descripción de lo que ocurre y, cuando exista, su correspondencia con una escena implementada.
+Las primeras exploraciones visuales que acompañaron la construcción del storyboard.
+
+## Storyboard
+
+La secuencia visual que articula el viaje del protagonista y sus momentos narrativos.

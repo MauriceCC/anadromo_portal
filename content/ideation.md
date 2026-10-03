@@ -1,15 +1,11 @@
-# Del primer bosquejo al mundo marino
+# Antes del océano, una idea.
 
-Estado: pendiente de materiales. El autor confirma que se trabajó con Miro.
+El proyecto comenzó con una pregunta sobre la interacción: ¿cómo acercar el cuerpo del jugador a la experiencia de ser un salmón?
 
-## Material por integrar
+## Un espacio para pensar juntos
 
-- Enlace al tablero: pendiente.
-- Exportación: `public/media/ideation/`.
-- Pregunta o idea que inició el proyecto.
-- Alternativas exploradas y decisiones tomadas.
-- Relación entre los bosquejos y la versión implementada.
+En Miro reunimos los primeros bosquejos y las ideas del proyecto. Las decisiones se construyeron en conjunto, entre reuniones, sesiones en la universidad y el seguimiento del trabajo en GitHub Projects.
 
-Preferir una imagen legible con explicación y enlace al tablero. Una incrustación del Miro puede ser complementaria si sus permisos permiten verla.
+## Elegir qué construir
 
-ya esta el enlace en docs, el proyecto comenzo como una iniciativa para acercarse a los principios de la Interacción Humano Computador. No es necesario detallar tanto, ya que en el Miro ya se especifican estas partes
+El alcance inicial era más amplio. Lo concentramos en dos escenarios: un primer contacto para aprender a nadar y alimentarse, y una cueva donde esas acciones adquieren un nuevo sentido frente al peligro.

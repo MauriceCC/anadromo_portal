@@ -1,36 +1,62 @@
-# Anadromo · Portal del proyecto
+# Anadromo · El instinto de volver
 
-Web de presentación y documentación del desarrollo de **Anadromo**, un videojuego en Unity sobre el retorno de un salmón a su río natal.
+Portal del desarrollo de **Anadromo**, una experiencia marina de exploración y supervivencia en realidad virtual, creada en Unity para Oculus Quest 2.
 
-Esta primera etapa establece la organización del contenido y las referencias visuales. Todavía no hay una aplicación ejecutable ni un framework seleccionado.
+La web reúne la historia, el proceso de ideación en Miro, bocetos y storyboard, las mecánicas, las decisiones de interacción y los videos de pruebas con usuarios.
+
+## Ejecutar localmente
+
+Requiere Node.js 22 o posterior.
+
+```powershell
+npm.cmd ci
+npm.cmd run dev
+```
+
+Abrir <http://localhost:4321/anadromo_portal/>. En macOS/Linux, utilizar `npm` en lugar de `npm.cmd`. Reiniciar el servidor después de editar para regenerar la web.
+
+## Compilar y comprobar
+
+```powershell
+npm.cmd run build
+npx.cmd playwright install chromium
+npm.cmd test
+```
+
+El resultado está en `dist/`. Es una web estática con Markdown, CSS y JavaScript; no necesita backend.
 
 ## Estructura
 
 ```text
-content/                Textos destinados a la web, en Markdown
-  incoming/             Textos nuevos pendientes de integrar
-docs/                   Guías internas de contenido, diseño y fuentes
-  templates/            Plantillas para mecánicas y pruebas
-public/media/           Material preparado para publicar
-  game/                 Capturas del juego
-  ideation/             Exportaciones del Miro
-  storyboard/           Viñetas del storyboard
-  videos/               Clips optimizados y pósteres
-  subtitles/            Subtítulos WebVTT
-src/                    Reserva para la implementación de la web
-  components/           Componentes de interfaz
-  layouts/              Estructuras de página
-  pages/                Páginas y rutas
-  styles/               Estilos y variables visuales
+content/                  Textos publicados y catálogo de medios
+content/incoming/         Aportes pendientes de integrar (no publicados)
+docs/                     Guías internas y referencias
+  source-notes/           Copia de los aportes antes de la edición web
+public/media/
+  game/                   Futuras capturas del juego
+  storyboard/             PDF originales y vistas previas WebP
+  videos/                 Videos originales (excluidos del build)
+  optimized/              Videos comprimidos y pósteres para la web
+  subtitles/              Espacio para subtítulos
+src/styles/site.css       Diseño visual y adaptación a móvil
+src/site.js               Interacciones del navegador
+scripts/                  Compilación, servidor local y preparación de medios
+tests/                    Comprobaciones funcionales
+.github/workflows/        Publicación en GitHub Pages
 ```
 
-## Por dónde comenzar
+## Publicar en GitHub Pages
 
-1. Consultar [el mapa de la web](docs/site-map.md).
-2. Completar los textos de `content/` siguiendo [la guía editorial](docs/content-guide.md).
-3. Incorporar imágenes y videos según [la guía de medios](public/media/README.md).
-4. Usar [la dirección visual](docs/art-direction.md) al implementar la interfaz.
+En **Settings → Pages**, seleccionar **GitHub Actions** como fuente. El workflow publica los cambios enviados a `main`. Dirección prevista: <https://mauricecc.github.io/anadromo_portal/>.
 
-Puedes entregar un texto libre: se conservará su sentido y se integrará en la sección correspondiente. Las afirmaciones sobre mecánicas y principios de interacción deben distinguir entre lo confirmado, lo propuesto y lo pendiente de verificar.
+Consultar [la guía de desarrollo y publicación](docs/deployment.md) para configurar Pages, regenerar videos y agregar capturas. Las copias optimizadas deben incluirse en el commit; el workflow no descarga los originales de Git LFS.
 
-Repositorio del juego: <https://github.com/lawryuke/anadromo>. Fuentes consultadas y pendientes: [referencias](docs/references.md).
+## Editar contenido
+
+Los textos de `content/` alimentan las secciones de la web. Los enlaces, las sesiones de video y las capturas se configuran en `content/media.json`. La galería aparece al incorporar sus primeras imágenes; la portada actual es una ilustración vectorial, no una captura del juego.
+
+- [Guía editorial](docs/content-guide.md)
+- [Implementación](docs/implementation.md)
+- [Dirección visual](docs/art-direction.md)
+- [Referencias del proyecto](docs/references.md)
+- [Repositorio del juego](https://github.com/lawryuke/anadromo)

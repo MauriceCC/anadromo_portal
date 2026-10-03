@@ -1,0 +1,12 @@
+{
+  "miro": "https://miro.com/app/board/uXjVHsf8r7k=/?share_link_id=317241796153",
+  "repository": "https://github.com/lawryuke/anadromo",
+  "project": "https://github.com/users/lawryuke/projects/2",
+  "gallery": [],
+  "videos": [
+    { "id": "usuario1", "title": "Primera sesión", "description": "Registro de prueba con el primer participante.", "group": "sesiones", "parts": ["usuario1", "usuario1-2", "usuario1-3"] },
+    { "id": "usuario2", "title": "Segunda sesión", "description": "Una nueva perspectiva sobre la experiencia de juego.", "group": "sesiones", "parts": ["usuario2"] },
+    { "id": "usuario3", "title": "Tercera sesión", "description": "Registro de juego y comentarios de la tercera sesión.", "group": "sesiones", "parts": ["usuario3", "usuario3-feedback"] },
+    { "id": "pruebaFinal", "title": "Prueba final", "description": "El recorrido registrado en la prueba final del proyecto.", "group": "final", "parts": ["pruebaFinal", "pruebaFinal-2", "pruebaFinal-3"] }
+  ]
+}

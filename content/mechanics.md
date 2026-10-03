@@ -1,9 +1,39 @@
-# Cómo se juega
+# Aprende a ser parte del agua.
 
-Estado: pendiente de inventario de mecánicas implementadas.
+Tus manos impulsan el viaje. Tu cabeza marca el rumbo. Cada gesto tiene una respuesta en este mundo.
 
-La historia permite describir el objetivo del viaje, pero no confirma controles, habilidades, obstáculos o sistemas de progreso.
+## Nadar
 
-Completar una [ficha de mecánica](../docs/templates/mechanic.md) por comportamiento confirmado. Incluir acción del jugador, respuesta del juego, propósito y captura o clip. Integrar decisiones de interacción junto a la mecánica cuando exista evidencia.
+Mueve las manos en un gesto de aleteo para desplazarte. El movimiento del cuerpo se convierte en el impulso del salmón.
 
-La idea es que el jugador se adentre en la cuebva evitando ser comida por el bloop y allí debe de superar las amenaazas internas de la cueva para poder  culminar la Carrera del Salmón
+## Orientarte
+
+Gira la cabeza para cambiar de dirección y orientar el aleteo. Las medusas luminosas señalan el camino y ayudan a reconocer cuándo estás regresando.
+
+## Alimentarte
+
+El aleteo y los golpes consumen la barra de hambre. Cuando baja, la visión se vuelve grisácea. Busca el brillo naranja del krill: comer recupera la barra y devuelve el color, acompañado de una señal sonora.
+
+## Liberarte
+
+Si una lamprea se adhiere a ti, el movimiento se detiene. Agita rápidamente las muñecas para desprenderla antes de que sea demasiado tarde.
+
+## Pirañas
+
+Al entrar en su rango, se dirigen hacia el jugador para atacar.
+
+## Lampreas
+
+Se acercan y se adhieren al protagonista. La sacudida de las muñecas permite liberarse.
+
+## Peces linterna
+
+Son ciegos, pero pueden escuchar. Al detectar al jugador apagan su luz y se aproximan: quedarse quieto permite evitar el ataque.
+
+## Tiburones y orcas
+
+Recorren la cueva. Un contacto con ellos significa la muerte instantánea del protagonista.
+
+## Bloop
+
+Una criatura colosal que dispersa al cardumen. Entrar en contacto con ella es letal; la cueva se convierte en una vía de escape.
