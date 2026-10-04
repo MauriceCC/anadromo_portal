@@ -31,15 +31,36 @@ test('Las partes, filtros y acordeones funcionan', async ({ page }) => {
 });
 
 test('Los videos responden a solicitudes parciales', async ({ request }) => {
-  const response = await request.get('media/optimized/usuario1.mp4', { headers: { Range: 'bytes=0-1023' } });
-  expect(response.status()).toBe(206);
-  expect(response.headers()['content-type']).toBe('video/mp4');
-  expect((await response.body()).length).toBe(1024);
+  for (const name of ['usuario1', 'anadromo-gameplay']) {
+    const response = await request.get(`media/optimized/${name}.mp4`, { headers: { Range: 'bytes=0-1023' } });
+    expect(response.status()).toBe(206);
+    expect(response.headers()['content-type']).toBe('video/mp4');
+    expect((await response.body()).length).toBe(1024);
+  }
+});
+
+test('Las capturas identifican los enemigos y el gameplay se reproduce', async ({ page }) => {
+  await page.goto('./');
+  for (const name of ['Pirañas', 'Lampreas', 'Peces linterna', 'Tiburones y orcas', 'Bloop']) {
+    const card = page.locator('.creatures details').filter({ hasText: name });
+    await card.locator('summary').click();
+    expect(await card.locator('img').count()).toBeGreaterThan(0);
+    await expect.poll(() => card.locator('img').first().evaluate(image => image.complete && image.naturalWidth > 0)).toBeTruthy();
+  }
+  const linternaImages = page.locator('.creatures details').filter({ hasText: 'Peces linterna' }).locator('img');
+  await expect(linternaImages).toHaveCount(2);
+  await expect(linternaImages.nth(0)).toHaveAttribute('src', /pez-linterna-2\.webp$/);
+  await expect(linternaImages.nth(1)).toHaveAttribute('src', /pez-ciego\.webp$/);
+  await expect.poll(() => linternaImages.nth(1).evaluate(image => image.complete && image.naturalWidth > 0)).toBeTruthy();
+  const gameplay = page.locator('.gameplay-video video');
+  await gameplay.evaluate(async element => { element.muted = true; await element.play(); });
+  await expect.poll(() => gameplay.evaluate(element => element.currentTime), { timeout: 15000 }).toBeGreaterThan(0.2);
+  expect(await gameplay.evaluate(element => element.videoWidth)).toBeGreaterThan(0);
 });
 
 test('El navegador decodifica y reproduce la grabación optimizada', async ({ page }) => {
   await page.goto('./');
-  const video = page.locator('video').first();
+  const video = page.locator('.video-card video').first();
   await video.evaluate(async element => {
     element.muted = true;
     await element.play();

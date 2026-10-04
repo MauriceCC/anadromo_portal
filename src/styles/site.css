@@ -822,10 +822,75 @@ details[open]>summary {
   color:var(--accent);
 }
 
-.creatures details>div {
+.creature-detail {
   font-size:.85rem;
   padding-right:30px;
-  padding-bottom:8px;
+  padding-bottom:20px;
+}
+
+.creature-images {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:10px;
+  margin:2px 0 18px;
+}
+
+.creature-images img {
+  display:block;
+  width:100%;
+  height:210px;
+  object-fit:contain;
+  background:#041b22;
+  border:1px solid var(--line);
+}
+
+.creature-copy p {
+  margin:0;
+  line-height:1.75;
+}
+
+.gameplay-feature {
+  display:grid;
+  grid-template-columns:1fr 1.65fr;
+  gap:65px;
+  align-items:center;
+  margin-top:85px;
+  padding:34px;
+  background:#10313a;
+  border:1px solid var(--line);
+}
+
+.gameplay-feature h3 {
+  font-family:var(--serif);
+  font-size:2.3rem;
+  line-height:1.2;
+  margin:14px 0 22px;
+}
+
+.gameplay-feature p:not(.eyebrow) {
+  font-size:.85rem;
+  line-height:1.75;
+}
+
+.gameplay-video {
+  min-width:0;
+}
+
+.gameplay-video video {
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  background:#041318;
+}
+
+.gameplay-caption {
+  margin:10px 0 0;
+  color:var(--muted);
+}
+
+.gameplay-caption a {
+  color:var(--accent);
+  text-decoration:underline;
 }
 
 .experience-grid {
@@ -1234,6 +1299,9 @@ details[open]>summary {
   .process-grid,.bestiary {
     gap:50px;
   }
+  .gameplay-feature {
+    gap:35px;
+  }
   .evolution {
     gap:40px;
     padding:36px;
@@ -1606,6 +1674,11 @@ details[open]>summary {
   .bestiary h3 {
     font-size:2.4rem;
   }
+  .gameplay-feature {
+    grid-template-columns:1fr;
+    margin-top:55px;
+    padding:25px;
+  }
   .experience-grid {
     grid-template-columns:1fr;
     gap:30px;
@@ -1713,4 +1786,3 @@ details[open]>summary {
     transition:none!important;
   }
 }
-

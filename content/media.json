@@ -3,6 +3,23 @@
   "repository": "https://github.com/lawryuke/anadromo",
   "project": "https://github.com/users/lawryuke/projects/2",
   "gallery": [],
+  "enemies": {
+    "Pirañas": [{ "src": "media/game/pirana.webp", "alt": "Pirañas nadando en la cueva de Anadromo" }],
+    "Lampreas": [{ "src": "media/game/lamprea.webp", "alt": "Lampreas en una zona oscura de la cueva" }],
+    "Peces linterna": [
+      { "src": "media/game/pez-linterna-2.webp", "alt": "Vista frontal de un pez linterna con su luz encendida" },
+      { "src": "media/game/pez-ciego.webp", "alt": "Pez ciego en una zona oscura de la cueva" }
+    ],
+    "Tiburones y orcas": [
+      { "src": "media/game/tiburon.webp", "alt": "Tiburones nadando en la oscuridad de la cueva" },
+      { "src": "media/game/orca.webp", "alt": "Orca en la cueva de Anadromo" }
+    ],
+    "Bloop": [{ "src": "media/game/bloop.webp", "alt": "Bloop, criatura colosal que aparece bajo el agua" }]
+  },
+  "gameplay": {
+    "src": "media/optimized/anadromo-gameplay.mp4",
+    "poster": "media/optimized/anadromo-gameplay.webp"
+  },
   "videos": [
     { "id": "usuario1", "title": "Primera sesión", "description": "Registro de prueba con el primer participante.", "group": "sesiones", "parts": ["usuario1", "usuario1-2", "usuario1-3"] },
     { "id": "usuario2", "title": "Segunda sesión", "description": "Una nueva perspectiva sobre la experiencia de juego.", "group": "sesiones", "parts": ["usuario2"] },
