@@ -33,7 +33,7 @@ content/incoming/         Aportes pendientes de integrar (no publicados)
 docs/                     Guías internas y referencias
   source-notes/           Copia de los aportes antes de la edición web
 public/media/
-  game/                   Futuras capturas del juego
+  game/                   Capturas de enemigos y futuras escenas
   storyboard/             PDF originales y vistas previas WebP
   videos/                 Videos originales (excluidos del build)
   optimized/              Videos comprimidos y pósteres para la web
@@ -53,7 +53,7 @@ Consultar [la guía de desarrollo y publicación](docs/deployment.md) para confi
 
 ## Editar contenido
 
-Los textos de `content/` alimentan las secciones de la web. Los enlaces, las sesiones de video y las capturas se configuran en `content/media.json`. La galería aparece al incorporar sus primeras imágenes; la portada actual es una ilustración vectorial, no una captura del juego.
+Los textos de `content/` alimentan las secciones de la web. Los enlaces, las sesiones de video y las capturas se configuran en `content/media.json`. Las imágenes de enemigos se muestran en «Cómo se juega» y el gameplay completo aparece debajo del bestiario. La galería de escenas aparece al incorporar sus primeras imágenes; la portada actual es una ilustración vectorial, no una captura del juego.
 
 - [Guía editorial](docs/content-guide.md)
 - [Implementación](docs/implementation.md)

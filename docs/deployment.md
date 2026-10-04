@@ -42,9 +42,11 @@ El script también genera la primera página de cada PDF como vista previa WebP.
 
 Agregar cada sesión o parte en `content/media.json`. Los títulos de las sesiones identifican los archivos aportados, sin atribuirles versiones del algoritmo ni hallazgos específicos que no estén documentados.
 
+El gameplay general se publica por separado en «Cómo se juega». Para preparar su copia optimizada y las capturas de enemigos a partir de los originales locales de `resources/`, ejecutar `python scripts/prepare-resources.py` con Pillow e imageio-ffmpeg instalados. Los originales de `resources/` están ignorados por Git; versionar solo las copias de `public/media/game/` y `public/media/optimized/`. El gameplay no sustituye los registros de las pruebas con usuarios ni representa clips individuales de ataques.
+
 ## Capturas del juego
 
-La portada usa una ilustración vectorial identificada como tal. La galería no se muestra mientras no haya capturas.
+La portada usa una ilustración vectorial identificada como tal. Las capturas de enemigos se muestran en el bestiario. La galería de escenas no se muestra mientras no haya entradas en `gallery`.
 
 1. Guardar capturas optimizadas en `public/media/game/`.
 2. Agregar entradas en `gallery` dentro de `content/media.json`:

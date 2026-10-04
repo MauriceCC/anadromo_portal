@@ -15,9 +15,10 @@ const videos = [...document.querySelectorAll('video')];
 videos.forEach(video => {
   video.addEventListener('play', () => videos.forEach(other => { if (other !== video) other.pause(); }));
   video.addEventListener('error', () => {
-    const status = video.closest('.video-card').querySelector('.video-status');
+    const status = video.closest('.video-card, .gameplay-video')?.querySelector('.video-status');
+    if (!status) return;
     status.classList.remove('sr-only');
-    status.textContent = 'No se pudo cargar el video. Puedes abrirlo con el enlace de la parte seleccionada.';
+    status.textContent = 'No se pudo cargar el video. Puedes abrirlo desde su enlace.';
   });
 });
 document.querySelectorAll('[data-video-src]').forEach(link => link.addEventListener('click', event => {

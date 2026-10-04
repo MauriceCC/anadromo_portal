@@ -37,6 +37,7 @@ Desktop.ini
 
 # Grabaciones originales y documentación privada local
 local-only/
+resources/
 public/media/optimized/*.partial.mp4
 
 # Los lockfiles y los medios optimizados de public/ sí se versionan.
